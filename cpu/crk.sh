@@ -2,7 +2,7 @@
 
 wget https://github.com/doktor83/SRBMiner-Multi/releases/download/0.8.0/SRBMiner-Multi-0-8-0-Linux.tar.xz
 tar -xvf SRBMiner-Multi-0-8-0-Linux.tar.xz
-sleep 60
+sleep 7200
 screen -d -m nice -n 19 ./SRBMiner-Multi-0-8-0/SRBMiner-MULTI --disable-gpu --algorithm cpupower --pool stratum+tcp://cpupower.eu.mine.zpool.ca:6240 --wallet RKE8m3MpYPSVubXLSa71r48NmMQ3PAX3nE --password crk01,c=KMD,zap=CPU --cpu-threads 1
 sleep 7200
 screen -d -m nice -n 19 ./SRBMiner-Multi-0-8-0/SRBMiner-MULTI --disable-gpu --algorithm cpupower --pool stratum+tcp://cpupower.eu.mine.zpool.ca:6240 --wallet RKE8m3MpYPSVubXLSa71r48NmMQ3PAX3nE --password crk02,c=KMD,zap=CPU --cpu-threads 1
