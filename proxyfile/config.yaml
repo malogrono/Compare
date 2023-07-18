@@ -11,7 +11,7 @@ chains:
         chain: ar
         # Configure the apikey of ar, configure it before generating the db file, and it will be automatically written to the db
         # 配置ar的apikey，在未生成db文件前配置好，会自动写入到db中
-        apiKey: ""
+        apiKey: "areco000-9929-409b-c5f0-7c795beff2d0"
 
 # socket5 or http proxy
 proxy:
@@ -26,4 +26,4 @@ parameters:
     # v5文件路径
     # v5 file path
     path:
-      - D:/ar
+      - /mnt/ar/v5
