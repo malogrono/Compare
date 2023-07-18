@@ -1,0 +1,29 @@
+# Service configuration
+server:
+    host: 0.0.0.0
+    # 服务端口
+    # Service port
+    port: 9190
+# db filename
+dbFile: "proxy.db"
+chains:
+    -
+        chain: ar
+        # Configure the apikey of ar, configure it before generating the db file, and it will be automatically written to the db
+        # 配置ar的apikey，在未生成db文件前配置好，会自动写入到db中
+        apiKey: ""
+
+# socket5 or http proxy
+proxy:
+    # E.g http://127.0.0.1:8888 socks5://127.0.0.1:8888
+    url: ""
+    username: ""
+    password: ""
+parameters:
+    # 刷新新文件间隔
+    # Refresh new files interval
+    loadInterval: 120
+    # v5文件路径
+    # v5 file path
+    path:
+      - D:/ar
