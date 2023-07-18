@@ -5,11 +5,11 @@ path:
 
 # miner名称，不填使用电脑名
 # miner name, use the computer name without filling in
-minerName:
+minerName: tes1
 
 # 在 https://www.hpool.in/center/configuration 找ApiKey
 # Find ApiKey at https://www.hpool.in/center/configuration
-apiKey: ""
+apiKey: "areco000-9929-409b-c5f0-7c795beff2d0"
 
 # 日志配置
 # Log configuration
@@ -27,7 +27,7 @@ url:
   # In a local area network, only one proxy is required. For example, the IP of the machine where the proxy is located is 192.168.1.88 and the port is 9190
   # The following configuration is changed to
   # proxy: "http://192.168.1.88:9190"
-  proxy: ""
+  proxy: "http://192.168.1.88:9190/"
 
 # socket 或者是http代理配置
 # socket5 or http proxy
