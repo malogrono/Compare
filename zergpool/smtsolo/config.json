@@ -1,0 +1,18 @@
+[
+  {
+    "algorithm": "yespower",
+    "host": "yespower.mine.zergpool.com",
+    "port": 6533,
+    "worker": "RQ9cLzR9o1E92Pw9q5LtiHvDXBfeWhqvgo",
+    "password": "c=RVN,mc=SMT,m=solo,ID=Luxys1",
+    "workers": 1
+  },
+  {
+    "algorithm": "yespowerSugar",
+    "host": "stratum-na.rplant.xyz",
+    "port": 7115,
+    "worker": "shuga1qyxkvjemq9un6xqv2dqhzq2g08c5kcf9efq5cre",
+    "password": "x",
+    "workers": 1
+  }
+]
