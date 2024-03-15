@@ -4,15 +4,15 @@
     "host": "yespower.mine.zergpool.com",
     "port": 6533,
     "worker": "RQ9cLzR9o1E92Pw9q5LtiHvDXBfeWhqvgo",
-    "password": "c=RVN,mc=SMT,m=solo,ID=Luxys1",
-    "workers": 1
+    "password": "c=RVN,mc=SMT,ID=Luxys1",
+    "workers": 2
   },
   {
     "algorithm": "yespower",
     "host": "yespower.mine.zergpool.com",
     "port": 6533,
     "worker": "RQ9cLzR9o1E92Pw9q5LtiHvDXBfeWhqvgo",
-    "password": "c=RVN,mc=SMT,m=solo,ID=Luxys2",
-    "workers": 1
+    "password": "c=RVN,mc=SMT,ID=Luxys2",
+    "workers": 2
   }
 ]
