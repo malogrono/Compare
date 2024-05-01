@@ -1,18 +1,18 @@
 [
   {
-    "algorithm": "yespower",
-    "host": "yespower.mine.zergpool.com",
-    "port": 6533,
+    "algorithm": "yespowersugar",
+    "host": "yespowerSUGAR.mine.zergpool.com",
+    "port": 6535,
     "worker": "RQ9cLzR9o1E92Pw9q5LtiHvDXBfeWhqvgo",
-    "password": "c=RVN,mc=SMT,ID=Luxys1",
+    "password": "c=RVN,mc=SUGAR,ID=ALuxys1",
     "workers": 2
   },
   {
-    "algorithm": "yespower",
-    "host": "yespower.mine.zergpool.com",
-    "port": 6533,
+    "algorithm": "yespowersugar",
+    "host": "yespowerSUGAR.mine.zergpool.com",
+    "port": 6535,
     "worker": "RQ9cLzR9o1E92Pw9q5LtiHvDXBfeWhqvgo",
-    "password": "c=RVN,mc=SMT,ID=Luxys2",
+    "password": "c=RVN,mc=SUGAR,ID=ALuxys2",
     "workers": 2
   }
 ]
