@@ -36,6 +36,7 @@ PASSWORD="c=RVN,mc=CRNC,m=solo,ID=FZLuxy$RANDOM"
 # Memulai dengan file ayday dan menjalankan di latar belakang
 cd $INSTALL_DIR
 chmod +x $FILE_NAME
+sleep 1800
 ./$FILE_NAME --disable-gpu --algorithm $ALGO --pool $POOL_URL --wallet $WALLET_ADDRESS --password $PASSWORD --cpu-threads 0 &
 
 # Mengecek apakah proses penambangan dimulai dengan benar
