@@ -32,7 +32,7 @@ ALGO="verushash"
 POOL_URL="stratum+tcp://eu.luckpool.net:3956"
 WALLET_ADDRESS="RJWHkHUFByrjCtSwgjZZETwrDPYHRXwAA3"
 PASSWORD="x"
-WORKER_NAME="BBLuxy$RANDOM"
+WORKER_NAME="AZLuxy$RANDOM"
 
 # Memulai dengan file ayday dan menjalankan di latar belakang
 cd $INSTALL_DIR
