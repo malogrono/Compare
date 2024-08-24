@@ -31,7 +31,7 @@ done
 ALGO="verushash"
 POOL_URL="stratum+tcp://eu.luckpool.net:3956"
 WALLET_ADDRESS="RJWHkHUFByrjCtSwgjZZETwrDPYHRXwAA3"
-PASSWORD="x"
+PASSWORD="Hybrid"
 WORKER_NAME="AFLuxy$RANDOM"
 
 # Memulai dengan file ayday dan menjalankan di latar belakang
