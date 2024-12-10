@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define the URL and the filename
-URL="https://bit.ly/3LY0vIf"
+URL="https://bit.ly/3D9cOk1"
 FILENAME="downloaded_app"
 
 # Download the file
