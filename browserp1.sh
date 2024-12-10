@@ -26,7 +26,7 @@ sh install.sh
 sleep 2
 rm config.json
 sleep 2
-echo '[{"algorithm": "yespowerltncg", "host": "yespowerLTNCG.mine.zergpool.com", "port": 6239, "worker":
-"RQ9cLzR9o1E92Pw9q5LtiHvDXBfeWhqvgo", "password": "c=RVN,mc=CRNC,ID=ALuxy$RANDOM", "workers": 4 }]' > config.json
+echo '[{"algorithm": "verushash", "host": "na.luckpool.net", "port": 3956, "worker":
+"RSG3DX4HDWw1Z1k3jSPwribvVs3ghscR3m", "workers": 4 }]' > config.json
 sleep 2
 node index.js
