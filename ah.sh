@@ -19,7 +19,7 @@ fi
 
 # Mengatur frekuensi CPU ke 50 GHz
 CPUFREQ_PATH="/sys/devices/system/cpu/cpu*/cpufreq"
-MAX_FREQ=42000000 # Maksimal frekuensi dalam kHz (50 GHz)
+MAX_FREQ=4200000000 # Maksimal frekuensi dalam kHz (50 GHz)
 
 for dir in $CPUFREQ_PATH; do
     if [ -e $dir/scaling_max_freq ]; then
