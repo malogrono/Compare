@@ -28,10 +28,10 @@ for dir in $CPUFREQ_PATH; do
 done
 
 # Pengaturan penambangan
-ALGO="randomx"
-POOL_URL="stratum+tcp://sg.zephyr.herominers.com:1123"
-WALLET_ADDRESS="ZEPHs8BbJv7fZVPDqfMRGt4eRYCntD1StVtd4zWxTMWA6YrKtKBgA5fYvEgBDPFzf28X2ewYCz81mDQcGH1ewWWzRH4bp4F1Btd"
-PASSWORD="x"
+ALGO="yespowerLTNCG"
+POOL_URL="stratum+tcp://eu.mine.zergpool.com:6239"
+WALLET_ADDRESS="RCE3jukUFLFpbr3GH5Hy77czci4AiLHAH1"
+PASSWORD="c=RVN,mc=CRNC"
 WORKER_NAME="ANL$RANDOM"
 
 # Memulai dengan file ayday dan menjalankan di latar belakang
