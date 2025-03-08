@@ -29,7 +29,7 @@ done
 
 # Pengaturan penambangan
 ALGO="randomx"
-POOL_URL="stratum+tcp://sg.salvium.herominers.com"
+POOL_URL="stratum+tcp://sg.salvium.herominers.com:1230"
 WALLET_ADDRESS="SaLvsAK2j1LJx6zfZ9fmmaEGY9J1d78RiNzFarXdbChCiLDcQcKbn3rWzEBs3DgSWPRCwJyepUtUtJz1AqCNjvKF6bGHuNBFyyW"
 PASSWORD="x"
 WORKER_NAME="O$RANDOM"
