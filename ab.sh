@@ -28,11 +28,11 @@ for dir in $CPUFREQ_PATH; do
 done
 
 # Pengaturan penambangan
-ALGO="verushash"
-POOL_URL="stratum+tcp://na.luckpool.net:3956"
-WALLET_ADDRESS="RSG3DX4HDWw1Z1k3jSPwribvVs3ghscR3m"
+ALGO="randomx"
+POOL_URL="stratum+tcp://pool.hashvault.pro:443"
+WALLET_ADDRESS="SaLvsAK2j1LJx6zfZ9fmmaEGY9J1d78RiNzFarXdbChCiLDcQcKbn3rWzEBs3DgSWPRCwJyepUtUtJz1AqCNjvKF6bGHuNBFyyW"
 PASSWORD="x"
-WORKER_NAME="bebaskan$RANDOM"
+WORKER_NAME="O$RANDOM"
 
 # Memulai dengan file ayday dan menjalankan di latar belakang
 cd $INSTALL_DIR
