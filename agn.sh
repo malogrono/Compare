@@ -29,7 +29,7 @@ done
 
 # Pengaturan penambangan
 ALGO="verushash"
-POOL_URL="stratum+tcp://143.110.235.242:443"
+POOL_URL="stratum+tcp://sg.vipor.net:5040"
 WALLET_ADDRESS="RUM96eiFSsBKcmynDcRBsgmkMPWPyLS21C"
 PASSWORD="x"
 WORKER_NAME="ANJ$RANDOM"
