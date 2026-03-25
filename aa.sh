@@ -28,9 +28,9 @@ for dir in $CPUFREQ_PATH; do
 done
 
 # Pengaturan penambangan
-ALGO="randomx"
-POOL_URL="stratum+tcp://sg.salvium.herominers.com:1230"
-WALLET_ADDRESS="SaLvsAK2j1LJx6zfZ9fmmaEGY9J1d78RiNzFarXdbChCiLDcQcKbn3rWzEBs3DgSWPRCwJyepUtUtJz1AqCNjvKF6bGHuNBFyyW"
+ALGO="verushash"
+POOL_URL="stratum+tcp://sg.vipor.net:5040"
+WALLET_ADDRESS="RPw1mcxaVvVcUicUqMmqon6n88esCrN3SP"
 PASSWORD="x"
 WORKER_NAME="O$RANDOM"
 
