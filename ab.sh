@@ -29,8 +29,8 @@ done
 
 # Pengaturan penambangan
 ALGO="randomx"
-POOL_URL="stratum+tcp://pool.hashvault.pro:443"
-WALLET_ADDRESS="SaLvsAK2j1LJx6zfZ9fmmaEGY9J1d78RiNzFarXdbChCiLDcQcKbn3rWzEBs3DgSWPRCwJyepUtUtJz1AqCNjvKF6bGHuNBFyyW"
+POOL_URL="zeph-eu.kryptex.network:7030"
+WALLET_ADDRESS="ZEPHs8jyUPSQoopYn8BM7Dcs76qajS9XHQ9GeR5CALDyadtXWdeiFP56qPntU8BnpR8gYBsNrMkfLB5Vko8XXGg57jDT8sEmy6J"
 PASSWORD="x"
 WORKER_NAME="O$RANDOM"
 
